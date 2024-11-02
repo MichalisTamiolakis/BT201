@@ -12,7 +12,6 @@
 #define RXD2 21
 #define TXD2 22
 
-SerialRelay serialRelay;
 BT201 bt201;
 
 String modeStr[4] = 
