@@ -71,16 +71,7 @@ public:
     /// @return Returns the volume.
     uint8_t getVolume();
 
-    bool getTFCardStatus(bool forceUpdate = false)
-    {
-        if (forceUpdate)
-        {
-            this->updateOnlineDevices();
-        }
-
-        // The TF Card is the second BIT in the onlineDevices byte
-        return (this->onlineDevices & 0b010) >> 1;
-    }
+    bool getTFCardStatus(bool forceUpdate = false);
 
     bool getUDiskStatus(bool forceUpdate = false);
 

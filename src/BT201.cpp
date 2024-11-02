@@ -178,7 +178,7 @@ bool BT201::setAudioMode(AudioMode mode)
 
 // --- Getter Functions ---
 
-AudioMode BT201::getAudioMode(bool forceUpdate = false)
+AudioMode BT201::getAudioMode(bool forceUpdate)
 {
     if (!forceUpdate)
     {
@@ -211,7 +211,7 @@ AudioMode BT201::getAudioMode(bool forceUpdate = false)
     return this->audioMode;
 }
 
-BluetoothStatus BT201::getBluetoothStatus(bool forceUpdate = false)
+BluetoothStatus BT201::getBluetoothStatus(bool forceUpdate)
 {
     if (!forceUpdate)
     {
@@ -275,7 +275,7 @@ uint8_t BT201::getVolume()
     return 0;
 }
 
-bool BT201::getTFCardStatus(bool forceUpdate = false)
+bool BT201::getTFCardStatus(bool forceUpdate)
 {
     if (forceUpdate)
     {
@@ -286,7 +286,7 @@ bool BT201::getTFCardStatus(bool forceUpdate = false)
     return (this->onlineDevices & 0b010) >> 1;
 }
 
-bool BT201::getUDiskStatus(bool forceUpdate = false)
+bool BT201::getUDiskStatus(bool forceUpdate)
 {
     if (forceUpdate)
     {
