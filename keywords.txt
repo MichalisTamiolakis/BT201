@@ -1,0 +1,40 @@
+# Syntax Coloring Map For BT201 Library
+
+# Datatypes (KEYWORD1)
+BT201    KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+init KEYWORD2
+update KEYWORD2
+sendCommand KEYWORD2
+setVolume KEYWORD2
+increaseVolume KEYWORD2
+decreaseVolume KEYWORD2
+togglePlayPause KEYWORD2
+playNextSong KEYWORD2
+playPreviousSong KEYWORD2
+setAudioMode KEYWORD2
+getAudioMode KEYWORD2
+getBluetoothStatus KEYWORD2
+getVolume KEYWORD2
+getTFCardStatus KEYWORD2
+getUDiskStatus KEYWORD2
+getCurrentFilePlaying KEYWORD2
+getCallerPhoneNumber KEYWORD2
+phoneCall KEYWORD2
+phoneBack KEYWORD2
+phoneHangUp KEYWORD2
+phoneRefuseAccept KEYWORD2
+phonePickUp KEYWORD2
+AudioMode KEYWORD2
+BluetoothStatus KEYWORD2
+
+# Constants (LITERAL1)
+PAIRING LITERAL1
+CONNECTED LITERAL1
+MUSIC_PLAYING LITERAL1
+PHONE LITERAL1
+PHONE_TALKING LITERAL1
+BLUETOOTH LITERAL1
+U_DISK LITERAL1
+TF_CARD LITERAL1
