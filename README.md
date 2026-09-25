@@ -1,6 +1,7 @@
 # BT201/KT1025 Arduino Library
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+![Builds Status](https://img.shields.io/badge/builds-passing-green.svg)
 
 An Arduino/ESP library for controlling **BT201/KT1025 Bluetooth Audio Modules** over a Serial (UART) connection — playback, volume, audio source switching, and phone call handling, all from simple C++ method calls instead of raw AT-style commands.
 
